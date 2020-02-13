@@ -87,6 +87,27 @@ function App() {
           },
         ]}
       />
+
+      <List
+        title="Outros"
+        products={[
+          {
+            img: "https://i.pinimg.com/originals/db/af/68/dbaf683627b9eb72a3ed985b9223d101.jpg",
+            name: "Mesa de escritório qualquer",
+            price: 350,
+          },
+          {
+            img: "https://images-na.ssl-images-amazon.com/images/I/613kTHJ4g7L._AC_SX425_.jpg",
+            name: "Kindle",
+            price: 350,
+          },
+          {
+            img: "https://images-na.ssl-images-amazon.com/images/I/51BhFrquZkL._AC_SL1000_.jpg",
+            name: "2x Yeelight",
+            price: 270,
+          },
+        ]}
+      />
     </>
   );
 }
